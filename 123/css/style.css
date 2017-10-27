@@ -243,8 +243,9 @@ h5{
     background-repeat: no-repeat;
     background-position: left;
     background-color: #fff8f8;
-    right: 322px;
+        margin: -15px;
 }
+
 
 .alert-success{
 	padding: 20px 20px 20px 50px;
@@ -257,7 +258,7 @@ h5{
     background-color: #f3fdf5;
     border-top: 1px solid #7db772;
     border-bottom: 1px solid #7db772;
-    right: 293px;
+        margin: -15px;
 }
 
 .nav-tabs{
@@ -520,6 +521,22 @@ div.end-footer>.container>.row>.col-md-5>a:hover{
 	}
 	.beetwen{
 		display: none;
+	}
+
+	.step{
+		display: none;
+	}
+
+	.container-bgn{
+		background: #fff;
+	}
+
+	.validate-error{
+		position: static;
+	}
+
+	.nav>li>a{
+		margin: 0px;
 	}
 }
 
