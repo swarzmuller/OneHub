@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DOCUMENT</title>
+
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-static-top container" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand" href="index.html">
+           <p>WatchSell</p>
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="text-uppercase ancLinks" href="#">Home</a></li>
+              <li><a class="text-uppercase ancLinks" href="#">About</a></li>
+              <li><a class="text-uppercase ancLinks" href="#">Faq</a></li>
+              <li><a class="text-uppercase ancLinks" href="#">Rules</a></li>
+              <li><a class="text-uppercase ancLinks" href="#">Contact</a></li>
+              <li class="margin-left">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <p><img src="img/UK.png">EN</p>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#"><p><img src="img/UK.png">EN</p></a></li>
+                  </ul>
+                </div>         
+              </li>
+              <li class="login">
+                <a href="login.html" >Login</a>
+              </li>
+            </ul>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      </header>
+
+      <div class="container">      
+        <div class="row">
+          <div class="col-md-6">
+             <h1>Create new account</h1>
+            <form role="form" action="" data-toggle="validator">
+                <div class="row ">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">  
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="LastName" placeholder="Last name" required>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row ">  
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email adress" data-error="Bruh, that email address is invalid" required>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">  
+                      <div class="form-group">
+                        <input type="tel" pattern="[0-9]{10,11}" class="form-control" id="number" placeholder="Phone number" required>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row ">  
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Repeat password" required>
+                        <div class="help-block with-errors"></div>
+                      </div>   
+                    </div>
+                  </div>
+                  <div class="row ">
+                    <div class="col-md-12">
+                       <p class="prpolicy">By registering you agree to <a href="#">WatchSell’s general terms and privacy policy</a></p>
+                    </div>
+                  </div> 
+                  <div class="row ">
+                    <div class="col-md-6">
+                       <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                      </div>
+                    </div>
+                  </div> 
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5 backgrond">
+            <h1>Login</h1>
+              <form role="form" action="" data-toggle="validator">
+                 <div class="row ">
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <div class="form-group">
+                        <input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <div class="form-group">
+                        <button  type="submit" class="btn btn-primary">Login in</button>
+                        <a href="#" class="fogot">Forgot password?</a>
+                      </div>
+                    </div>
+                  </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 padding-footer">
+            <img src="img/world.png">
+          </div>
+          <div class="col-md-4 padding-footer">
+            <h3 class="text-uppercase">Information</h3>
+            <div class="linege"></div>
+            <p class="footer-text">He/she must also acknowledge and sign the Trusted Seller Guidelines for dealers.To become a WatchSell Trusted Seller, a dealer must meet a few importantn requirements, which we have listed for you below.</p>
+          </div>
+          <div class="col-md-5 working padding-footer">
+            <h3 class="text-uppercase">Working hours</h3>
+            <div class="linege"></div>
+            <p class="footer-text">Weekdays &nbsp &nbsp &nbsp 8 а.m. &nbsp &nbsp - &nbsp &nbsp 5 p.m.<br/><br/>Weekdays &nbsp &nbsp &nbsp 8 а.m. &nbsp &nbsp - &nbsp &nbsp 5 p.m.</p>
+            <div class="social">
+              <a href="#">
+                <img src="img/twitter.png">
+              </a>
+              <a href="#">
+                <img src="img/google.png">
+              </a>
+              <a href="#">
+                <img src="img/facebook.png">
+              </a>
+            </div>
+          </div>
+        </div>      
+      </div>
+      <div class="container-fluid end-footer">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            ©2017 WatchSell Company
+          </div>
+          <div class="col-md-5 col-md-offset-5">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Company</a>
+            <a href="#">Secure</a>
+            <a href="#">Faq</a> 
+            <a href="#">Contact</a> 
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validator.js"></script>
+  </body>
+</html>

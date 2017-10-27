@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DOCUMENT</title>
+
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AWESOME -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap-imageupload.css" rel="stylesheet">
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-static-top container" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand" href="index.html">
+           <p>WatchSell</p>
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="text-uppercase ancLinks" href="#">Home</a></li>
+              <li><a class="text-uppercase ancLinks" href="#">About</a></li>
+              <li><a class="text-uppercase ancLinks" href="#">Faq</a></li>
+              <li><a class="text-uppercase ancLinks" href="#">Rules</a></li>
+              <li><a class="text-uppercase ancLinks" href="#">Contact</a></li>
+              <li class="margin-left">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <p><img src="img/UK.png">EN</p>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#"><p><img src="img/UK.png">EN</p></a></li>
+                  </ul>
+                </div>         
+              </li>
+              <li class="login">
+                <a href="login.html" >Login</a>
+              </li>
+            </ul>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      </header>
+      <div class="container container-bgn">
+        <div class="row">
+          <div class="col-md-7 col-bgn">
+            <ol class="breadcrumb">
+              <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+              <li class="active">Sell application</li>
+            </ol>
+        </div>
+        
+        <div class="col-md-5">
+
+        </div>
+      </div>
+    </div>
+      <div class="container container-bgn">
+        <div class="row">
+          <div class="col-md-7 col-bgn">
+            <h2 class="text-uppercase">Sell watches</h2>
+            <p class="col-md-10 prpolicy">Do not create ads for counterfeit, replica, or dummy watches. We're required to report such cases to the responsible authorities.</p>
+          </div>
+          <!--Right-->
+           <div class="col-md-5 step step-active">
+             <a href="#"> STEP 1 <br/> <span>Main information</span> </a>
+           </div>
+        </div>
+      </div>
+
+<!--FORMS-->
+      <form name="validate" class="validate" novalidate>
+      
+
+<!--Primary information-->
+      <div class="container container-bgn">
+        <div class="row">
+          <div class="col-md-7 col-bgn">
+            <h4> <img src="img/info.png">
+            Primary information</h4>
+            <hr>
+             <div class="row">
+              <div class="col-md-6">
+              <h5>Brand</h5>
+                <div class="form-group">
+                  <select name="CreditCardExpMo"  required class="form-control">
+                      <option selected="selected" disabled="disabled" value=""> - </option>
+                      <option value="1">Vecheron Constantin</option>
+                      <option value ="2">Casio</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+              <h5>Model</h5>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputName"  required>
+                    <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              <h5>Reference</h5>
+                <div class="form-group">
+                  <select name="CreditCardExpMo"  required class="form-control">
+                      <option selected="selected" disabled="disabled" value=""> - </option>
+                      <option value="1">1</option>
+                      <option value ="2">2</option>
+                  </select>
+                </div>
+              </div>
+            </div>      
+          </div>
+          <!--Right-->
+          <div class="col-md-5 step">
+            <a href="#"> STEP 2 <br/> <span>Main information</span> </a>
+          </div>
+        </div>
+      </div>
+<!--END Primary information-->
+      
+<!--Basic information-->
+      <div class="container container-bgn">
+        <div class="row">
+          <div class="col-md-7 col-bgn">
+            <h4> <img src="img/info.png">
+            Basic information</h4>
+            <hr>
+             <div class="row">
+              <div class="col-md-6">
+              <h5>Movement</h5>
+                <div class="form-group">
+                  <select name="CreditCardExpMo"  required class="form-control">
+                      <option selected="selected" disabled="disabled" value=""> - </option>
+                      <option value="1">Automatic</option>
+                      <option value ="2">Manual</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+              <h5>Material: Case</h5>
+                <div class="form-group">
+                  <select name="CreditCardExpMo"  required class="form-control">
+                      <option selected="selected" disabled="disabled" value=""> - </option>
+                      <option value="1">Case</option>
+                      <option value ="2">Gold</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              <h5>Material: Bracelet / Strap</h5>
+                <div class="form-group">
+                  <select name="CreditCardExpMo"  required class="form-control">
+                      <option selected="selected" disabled="disabled" value=""> - </option>
+                      <option value="1">Bracelet</option>
+                      <option value ="2">Strap</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+              <h5>Material: Bezel</h5>
+                <div class="form-group">
+                  <select name="CreditCardExpMo"  required class="form-control">
+                      <option selected="selected" disabled="disabled" value=""> - </option>
+                      <option value="1">Bezel</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              <h5>Gender</h5>
+                <div class="form-group">
+                  <select name="CreditCardExpMo"  required class="form-control">
+                      <option selected="selected" disabled="disabled" value=""> - </option>
+                      <option value="1">Male</option>
+                      <option value ="2">Famele</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+              <h5>Year</h5>
+                <div class="form-group">
+                      <input type="text" class="form-control" id="inputName"  required>
+                      <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+      </div>
+<!--TABS-->
+      <div class="container container-bgn">
+        <div class="row">
+          <div class="col-sm-7 col-bgn">
+                 <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation"><a href="#Caliber" aria-controls="Caliber" role="tab" data-toggle="tab">
+                  Caliber</a></li>
+                  <li role="presentation" class="active"><a href="#Case" aria-controls="Case" role="tab" data-toggle="tab">Case</a></li>
+                  <li role="presentation"><a href="#Bracelet" aria-controls="Bracelet" role="tab" data-toggle="tab">Bracelet / Strap</a></li>
+                  <li role="presentation"><a href="#Functions" aria-controls="Functions" role="tab" data-toggle="tab">Functions</a></li>
+                  <li role="presentation"><a href="#Others" aria-controls="Others" role="tab" data-toggle="tab">Others</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+               <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade" id="Caliber">..</div>
+                <div role="tabpanel" class="tab-pane fade in active" id="Case">
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h5>Case diametr (mm)</h5>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                              <input type="text" class="form-control" id="inputName"  required>
+                        </div>
+                      </div>
+                      <span class="beetwen">X</span>
+                      <div class="col-md-6 be">
+                        <div class="form-group">
+                              <input type="text" class="form-control" id="inputName"  required>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <h5>Thickness (mm)</h5>
+                      <div class="form-group">
+                            <input type="text" class="form-control" id="inputName"  required>
+                            <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h5>Waterproof</h5>
+                      <div class="form-group">
+                        <select name="CreditCardExpMo"  required class="form-control">
+                            <option selected="selected" disabled="disabled" value=""> - </option>
+                            <option value="1">Bracelet</option>
+                            <option value ="2">Strap</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                    <h5>Glass</h5>
+                      <div class="form-group">
+                        <select name="CreditCardExpMo"  required class="form-control">
+                            <option selected="selected" disabled="disabled" value=""> - </option>
+                            <option value="1">Bezel</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h5>Dial</h5>
+                      <div class="form-group">
+                        <select name="CreditCardExpMo"  required class="form-control">
+                            <option selected="selected" disabled="disabled" value=""> - </option>
+                            <option value="1">Male</option>
+                            <option value ="2">Famele</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                    <h5>Dial numerals</h5>
+                      <div class="form-group">
+                        <select name="CreditCardExpMo"  required class="form-control">
+                            <option selected="selected" disabled="disabled" value=""> - </option>
+                            <option value="1">Case</option>
+                            <option value ="2">Gold</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+                <div role="tabpanel" class="tab-pane fade" id="Bracelet">...</div>
+                <div role="tabpanel" class="tab-pane fade" id="Functions">...</div>
+                <div role="tabpanel" class="tab-pane fade" id="Others">...</div>
+              </div>
+          </div>
+          <div class="col-sm-5">
+          </div>
+        </div>
+      </div>
+      <!--Primary information-->
+      <div class="container container-bgn">
+        <div class="row">
+          <div class="col-md-7 col-bgn">
+            <h4> <img src="img/foto.png">
+            Photo</h4>
+            <hr>
+            <p class=".prpolicy">If you want to speed up response You must to upload at <strong>least 4 photo</strong></p>
+
+        <div class="row upload-panel">
+          <div class="col-md-2">
+              <!-- bootstrap-imageupload. -->
+            <div class="imageupload panel panel-default">
+                <div class="file-tab panel-body">
+                    <label class="btn btn-default btn-file">
+                        <span>Browse</span>
+                        <!-- The file is stored here. -->
+                        <input type="file" name="image-file">
+                    </label>
+
+                </div>
+              </div>
+                
+          </div>
+           <div class="col-md-2">
+              <!-- bootstrap-imageupload. -->
+            <div class="imageupload panel panel-default">
+                <div class="file-tab panel-body">
+                    <label class="btn btn-default btn-file">
+                        <span>Browse</span>
+                        <!-- The file is stored here. -->
+                        <input type="file" name="image-file">
+                    </label>
+
+                </div>
+              </div>    
+          </div>
+          <div class="col-md-2">
+              <!-- bootstrap-imageupload. -->
+            <div class="imageupload panel panel-default">
+                <div class="file-tab panel-body">
+                    <label class="btn btn-default btn-file">
+                        <span>Browse</span>
+                        <!-- The file is stored here. -->
+                        <input type="file" name="image-file">
+                    </label>
+
+                </div>
+              </div>    
+          </div>
+          <div class="col-md-2">
+              <!-- bootstrap-imageupload. -->
+            <div class="imageupload panel panel-default">
+                <div class="file-tab panel-body">
+                    <label class="btn btn-default btn-file">
+                        <span>Browse</span>
+                        <!-- The file is stored here. -->
+                        <input type="file" name="image-file">
+                    </label>
+
+                </div>
+              </div>    
+          </div>
+          <div class="col-md-2">
+              <!-- bootstrap-imageupload. -->
+            <div class="imageupload panel panel-default">
+                <div class="file-tab panel-body">
+                    <label class="btn btn-default btn-file">
+                        <span>Browse</span>
+                        <!-- The file is stored here. -->
+                        <input type="file" name="image-file">
+                    </label>
+
+                </div>
+              </div>    
+          </div>
+        </div>
+
+
+        </div>
+
+          </div>
+          <!--Right-->
+
+        </div>
+      </div>
+
+
+
+      <div class="container container-bgn">
+        <div class="row">
+          <div class="col-sm-7 col-bgn text-center">
+               <button class="btn btn-primary">ACCEPT</button> 
+          </div>
+          <div class="col-sm-5">
+            <div id="validate-error" class="hidden">Erorr</div> 
+          </div>
+        </div>
+      </div>
+
+          
+ </form>
+
+
+
+
+
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 padding-footer">
+            <img src="img/world.png">
+          </div>
+          <div class="col-md-4 padding-footer">
+            <h3 class="text-uppercase">Information</h3>
+            <div class="linege"></div>
+            <p class="footer-text">He/she must also acknowledge and sign the Trusted Seller Guidelines for dealers.To become a WatchSell Trusted Seller, a dealer must meet a few importantn requirements, which we have listed for you below.</p>
+          </div>
+          <div class="col-md-5 working padding-footer">
+            <h3 class="text-uppercase">Working hours</h3>
+            <div class="linege"></div>
+            <p class="footer-text">Weekdays &nbsp &nbsp &nbsp 8 а.m. &nbsp &nbsp - &nbsp &nbsp 5 p.m.<br/><br/>Weekdays &nbsp &nbsp &nbsp 8 а.m. &nbsp &nbsp - &nbsp &nbsp 5 p.m.</p>
+            <div class="social">
+              <a href="#">
+                <img src="img/twitter.png">
+              </a>
+              <a href="#">
+                <img src="img/google.png">
+              </a>
+              <a href="#">
+                <img src="img/facebook.png">
+              </a>
+            </div>
+          </div>
+        </div>      
+      </div>
+      <div class="container-fluid end-footer">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            ©2017 WatchSell Company
+          </div>
+          <div class="col-md-5 col-md-offset-5">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Company</a>
+            <a href="#">Secure</a>
+            <a href="#">Faq</a> 
+            <a href="#">Contact</a> 
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/validForm.js"></script>
+    <script src="js/bootstrap-imageupload.js"></script>
+     <script>
+            var $imageupload = $('.imageupload');
+            $imageupload.imageupload();
+
+            $('#imageupload-disable').on('click', function() {
+                $imageupload.imageupload('disable');
+                $(this).blur();
+            })
+
+            $('#imageupload-enable').on('click', function() {
+                $imageupload.imageupload('enable');
+                $(this).blur();
+            })
+
+            $('#imageupload-reset').on('click', function() {
+                $imageupload.imageupload('reset');
+                $(this).blur();
+            });
+        </script>
+
+  </body>
+</html>
